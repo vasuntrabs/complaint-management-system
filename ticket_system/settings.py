@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-y@miqgxmc!t=nc6%ry+tsj%hum_c_%!j$h)nb&5rj+si$yyn9t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ["complaint-management-system-rejq.onrender.com"]
 
 
 # Application definition
