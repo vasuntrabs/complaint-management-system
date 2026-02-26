@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-y@miqgxmc!t=nc6%ry+tsj%hum_c_%!j$h)nb&5rj+si$yyn9t
 DEBUG = False
 
 
-ALLOWED_HOSTS = ["complaint-management-system-rejq.onrender.com"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -42,8 +42,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
