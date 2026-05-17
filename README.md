@@ -1,12 +1,14 @@
 # Complaint Management System (Django)
 
-## 📌 Overview
+##  Overview
 A full-stack web application built using **Django** to manage complaints/tickets with status tracking.  
 Users can submit complaints, view all complaints, and the admin can update statuses via the Django admin panel.
 
+#Live Demo : https://complaint-management-system-0g0m.onrender.com
+
 ---
 
-## 🚀 Features
+## Features
 - Submit complaints **without login** (quick prototype)  
 - View all submitted complaints in a table  
 - Admin can update status: **Pending / In Progress / Resolved**  
@@ -17,7 +19,7 @@ Users can submit complaints, view all complaints, and the admin can update statu
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - Python 3.x  
 - Django 4.x  
 - SQLite (default Django DB)  
@@ -27,7 +29,7 @@ Users can submit complaints, view all complaints, and the admin can update statu
 
 ---
 
-## ▶️ How to Run Locally
+##  How to Run Locally
 
 1. Clone the repo:
 
